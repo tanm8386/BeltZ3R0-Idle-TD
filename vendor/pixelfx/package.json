@@ -1,0 +1,15 @@
+{
+  "name": "pixelfx",
+  "version": "0.3.0",
+  "description": "Vendored subset of PixelFX: code-driven pixel art effects used by Belt Z.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "exports": {
+    ".": "./src/core/index.js",
+    "./fx/*": "./src/fx/*.js",
+    "./core/*": "./src/core/*.js"
+  }
+}
